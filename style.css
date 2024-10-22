@@ -1,0 +1,539 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gilroy", sans-serif !important;
+}
+span {
+  display: block;
+}
+
+.continer {
+  width: 100%;
+  height: 100vh;
+  background-image: url("office5.jpg");
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-color: #161c2d;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:60px;
+}
+
+.navbar1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.continer h1 {
+  color: white;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 50px;
+  padding: 10px 100px;
+}
+
+.navbar2 a {
+  text-decoration: none;
+  color: white;
+  font-weight: 200px;
+}
+
+.content {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h5 {
+  font-size: 20px;
+  color: green;
+}
+
+.content h1 {
+  font-weight: 100%;
+  font-size: 40px;
+  font-weight: 1000;
+  gap: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.box {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px 70px;
+  border-radius: 10px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+form input {
+  padding: 16px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+}
+
+button {
+  width: 150px;
+  padding: 15px 20px;
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+
+p {
+  color: white;
+  font-weight: 200px;
+  padding-top: 24px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  background-image: url(symbol\ 2.jpg);
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.para {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  color: black;
+  text-align: center;
+  padding-top: 100px;
+}
+.para .p {
+  font-weight: 500px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.h2 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  font-size: 40px;
+  font-weight: 900;
+  color: black;
+  padding-top: 70px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  padding: 40px 450px;
+}
+
+.header2 .underimage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.underimage img {
+  width: 400px;
+  height: 300px;
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.header2 p {
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+  padding: 40px 165px;
+}
+.box6 {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  padding: 40px 30px;
+}
+
+.box7 {
+  width: 100%;
+  height: 92vh;
+}
+
+.box7 h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  padding: 0px 20px;
+  font-size: 30px;
+}
+
+.box7 p {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  color: black;
+  padding: 40px 20px;
+}
+
+.box7.box8 {
+  width: 100%;
+  height: 92vh;
+  flex-wrap: wrap;
+}
+
+.box8 img {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+}
+
+.box9 {
+  width: 100%;
+  height: 92vh;
+}
+
+.box9 img {
+  width: 600px;
+  height: 450px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+}
+.content3 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.content3 h3 {
+  font-size: 15px;
+  color: black;
+}
+
+.content3 p {
+  display: block;
+  color: black;
+  gap: 20px;
+}
+
+.content4 h3 {
+  display: block;
+  font-size: 15px;
+  color: black;
+}
+
+.content4 p {
+  display: block;
+  color: black;
+}
+
+.content5 {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.content5 h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: black;
+}
+
+.content5 p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: black;
+}
+
+.parent {
+  width: 1310px;
+  height: 500px;
+  background-color: rgb(9, 9, 45);
+  
+}
+
+
+.box3 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+
+  padding: 10px 200px;
+}
+
+.box3 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 15px;
+  padding: 8px 30px;
+}
+
+.box3 h3 {
+  display: block;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  padding: 10px 200px;
+}
+
+.box3 h4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  padding: 10px 200px;
+}
+
+.parent {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+.parent .child1 {
+  width: 530px;
+  height: 350px;
+  background-color: rgb(243, 236, 236);
+  gap: 30px 80px;
+  padding: 10px 10px;
+  border-radius: 5%;
+}
+
+.wed h2 p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10px;
+}
+
+.wed h2 {
+  color: black;
+  padding: 7px 0px;
+}
+
+.wed p {
+  color: black;
+  justify-content: flex-start;
+  font-size: 18px;
+  padding: 14px 0px;
+}
+
+.child1 h3 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700px;
+  color: black;
+  padding: 18px 0px;
+}
+
+.child1 h4 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700px;
+  color: black;
+  padding: 18px 0px;
+}
+
+.child1 h6 {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 23px;
+  font-weight: 700px;
+  color: black;
+  padding: 18px 0px;
+}
+
+.latest h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px;
+}
+.latest p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  color: black;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email {
+  width: 300px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+}
+.bro button {
+  width: 300px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  background-color: blue;
+  color: white;
+  border: 30px;
+  border-radius: 4px;
+}
+.get p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  font-size: 15px;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  }
+.company h1 {
+  display: flex;
+  font-size: 25px;
+  font-weight: 100;
+  padding: 30px 60px;
+}
+.company1 h2 {
+  display: flex;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 0px 80px;
+}
+.product h1 {
+  font-size: 25px;
+  font-weight: 100;
+  padding: 30px 70px;
+}
+.product1 h2 {
+  display: flex;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 0px 80px;
+}
+.services h1 {
+  font-size: 25px;
+  font-weight: 100;
+  padding: 30px 40px;
+  
+}
+.services1 h2 {
+  display: flex;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 0px 34px;
+}
+.legal h1 {
+  font-size: 25px;
+  font-weight: 100;
+  padding: 30px 80px;
+  gap: 20px 20px;
+}
+.legal1 h2 {
+  display: flex;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 0px 70px;
+}
+.contact1 h1 {
+  font-size: 25px;
+  font-weight: 100;
+  padding: 28px 20px;
+}
+.contact2 h2 {
+  display: flex;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 0px 20px;
+  color: blue;
+}
+.copy{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-weight: 100px;
+  padding-top: 50px;
+}
